@@ -1,0 +1,73 @@
+question,q1,q2,q3,q4,q5,
+text,"I like most parts of my personality","When I look at the story of my life, I am pleased with how things have turned out so far","Some people wander aimlessly through life, but I am not one of them","The demands of everyday life often get me down","In many ways, I feel disappointed about my achievements in life",
+answer,0,0,0,0,0,
+question,q1,q2,q3,q4,q5,
+text,"I like most parts of my personality","When I look at the story of my life, I am pleased with how things have turned out so far","Some people wander aimlessly through life, but I am not one of them","The demands of everyday life often get me down","In many ways, I feel disappointed about my achievements in life",
+answer,0,0,0,0,0,
+question: q1question: q2question: q3question: q4question: q5
+text,"I like most parts of my personality",answer,0,text,"When I look at the story of my life, I am pleased with how things have turned out so far",answer,0,text,"Some people wander aimlessly through life, but I am not one of them",answer,0,text,"The demands of everyday life often get me down",answer,0,text,"In many ways, I feel disappointed about my achievements in life",answer,0,
+
+BRID: G01480000
+question: q1
+text: "I like most parts of my personality"
+answer: 0
+
+question: q2
+text: "When I look at the story of my life, I am pleased with how things have turned out so far"
+answer: 0
+
+question: q3
+text: "Some people wander aimlessly through life, but I am not one of them"
+answer: 0
+
+question: q4
+text: "The demands of everyday life often get me down"
+answer: 0
+
+question: q5
+text: "In many ways, I feel disappointed about my achievements in life"
+answer: 0
+
+BRID: 
+question: q1
+text: 0
+answer: 3
+
+question: q2
+text: 1
+answer: 3
+
+question: q3
+text: 2
+answer: 3
+
+question: q4
+text: 3
+answer: 5
+
+question: q5
+text: 4
+answer: 4
+
+
+BRID: G01483573
+question: q1
+text: "I like most parts of my personality"
+answer: 3
+
+question: q2
+text: "When I look at the story of my life, I am pleased with how things have turned out so far"
+answer: 2
+
+question: q3
+text: "Some people wander aimlessly through life, but I am not one of them"
+answer: 3
+
+question: q4
+text: "The demands of everyday life often get me down"
+answer: 5
+
+question: q5
+text: "In many ways, I feel disappointed about my achievements in life"
+answer: 4
+

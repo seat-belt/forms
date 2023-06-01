@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Result</h1>
+    <p th:text="'BRID: ' + ${greeting.q1}" />
+    <!-- <p th:text="'Q2: ' + ${greeting.q2}" />
+    <p th:text="'Q3: ' + ${greeting.q3}" />
+    <p th:text="'Q4: ' + ${greeting.q4}" /> -->
+    <!-- <p th:text="'Q5: ' + ${greeting.q}" /> -->
+    
+    <!-- <p th:text="'Sum: ' + (${greeting.q1} + ${greeting.q2} + ${greeting.q3} + ${greeting.q4})" /> -->
+
+    <a href="/greeting">Submit another message</a>
+</body>
+</html>

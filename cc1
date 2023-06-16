@@ -1,0 +1,22 @@
+import React from 'react';
+import Head from 'next/head';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme();
+
+const MyPage = () => {
+  return (
+    <ThemeProvider theme={theme}>
+      <Head>
+        <link
+          rel="icon"
+          href={`data:image/svg+xml;base64,${encodeURIComponent('PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmVyc2lvbj0iMS4xIj4KICA8cGF0aCBkPSJNMjEgMjAuNWMwIDMuMy0uMiA1LS4yLTUuNXoiLz4KPC9zdmc+Cg==')}`}
+          type="image/svg+xml"
+        />
+      </Head>
+      {/* Rest of your page */}
+    </ThemeProvider>
+  );
+};
+
+export default MyPage;

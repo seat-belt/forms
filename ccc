@@ -1,6 +1,5 @@
-import Head from 'next/head';
-import { Helmet } from 'react-helmet';
-import SpaIcon from '../components/SpaIcon';
+const spaIconDataUrl = `data:image/svg+xml,${encodeURIComponent(SpaIcon.toLowerCase())}`;
+
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Helmet>
-        <link rel="icon" href={SpaIcon} />
+        <link rel="icon" href={spaIconDataUrl} type="image/svg+xml" />
       </Helmet>
       <HomePage />
     </>

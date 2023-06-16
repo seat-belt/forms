@@ -1,0 +1,30 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { toSvgDataURL } from '@mui/icons-material/Spa';
+
+const theme = createTheme();
+
+const MyApp = ({ Component, pageProps }) => {
+  const [faviconUrl, setFaviconUrl] = React.useState('');
+
+  React.useEffect(() => {
+    const loadFavicon = async () => {
+      const svgDataUrl = await toSvgDataURL();
+      setFaviconUrl(svgDataUrl);
+    };
+
+    loadFavicon();
+  }, []);
+
+  return (
+    <ThemeProvider theme={theme}>
+      <Helmet>
+        <link rel="icon" href={faviconUrl} />
+      </Helmet>
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
+};
+
+export default MyApp;
